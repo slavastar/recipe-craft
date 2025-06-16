@@ -26,6 +26,10 @@ RECIPE-CRAFT
 └── README.md                      # This file
 ```
 
+## 🔄 Workflow diagram
+
+![Workflow diagram](assets/workflow_diagram.png)
+
 ---
 
 ## 🚀 How to Launch
@@ -53,6 +57,7 @@ docker compose up --build
 ---
 
 ## ⬇️ Response example
+
 ![Response example](assets/response_example.png)
 
 ## 🧠 Technologies Used
