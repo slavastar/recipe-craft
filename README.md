@@ -28,7 +28,7 @@ RECIPE-CRAFT
 
 ## 🔄 Workflow diagram
 
-![Workflow diagram](assets/workflow_diagram.png)
+![Workflow diagram](assets/workflow.png)
 
 ---
 
