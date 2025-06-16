@@ -52,6 +52,9 @@ docker compose up --build
 
 ---
 
+## ⬇️ Response example
+![Response example](assets/response_example.png)
+
 ## 🧠 Technologies Used
 
 | Component        | Description                                    |
