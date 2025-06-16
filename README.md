@@ -1,4 +1,4 @@
-# RecipeCraft - Recipe Retrieval with RAG, FAISS & Ollama
+# 🥑 RecipeCraft - Recipe Retrieval with RAG, FAISS & Ollama
 
 **RecipeCraft** is an AI-powered recipe retrieval system that combines modern vector search with large language models (LLMs). Built with FAISS indexing, Sentence Transformers, and the Ollama framework, it enables semantic recipe search using natural language prompts.
 
@@ -36,13 +36,7 @@ git clone https://github.com/slavastar/recipe-craft.git
 cd recipe-craft
 ```
 
-### 2. Set up virtual environment (optional for local dev)
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Launch the project using Docker
+### 2. Launch the project using Docker
 ```bash
 docker compose up --build
 ```
@@ -70,19 +64,6 @@ docker compose up --build
 
 ---
 
-## 📦 Model Storage
-
-The FAISS index and processed recipes are saved using the following config keys:
-
-```yaml
-recipe_storage: storage/recipe.json
-faiss_storage: storage/recipe.index
-```
-
-These paths are set in `config/config_rag.yaml`.
-
----
-
 ## 📚 Resources
 
 - 📖 Original recipe dataset: [EightPortions Recipe Dataset](https://eightportions.com/datasets/Recipes/)
@@ -95,7 +76,7 @@ These paths are set in `config/config_rag.yaml`.
 ## 🛠️ Notes
 
 - The first-time image build will download models and tools which may take a few minutes.
-- Model initialization during the first prompt may also delay response by 10–40 seconds.
+- Model initialization during the first prompt may also delay response.
 - FAISS `IVFPQ` index requires training and may not respond until trained.
 
 ---
