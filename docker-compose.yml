@@ -1,0 +1,15 @@
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ollama-models:/root/.ollama
+      - faiss-index:/app/faiss_index
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  ollama-models:
+  faiss-index:

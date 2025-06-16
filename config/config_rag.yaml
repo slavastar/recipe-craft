@@ -1,0 +1,11 @@
+data_path: data/
+recipe_storage: storage/recipe.json
+faiss_storage: storage/recipe.index
+embedding_model: all-MiniLM-L6-v2
+index_type: IVFPQ
+
+index:
+  nlist: 128
+  nsubquantizers: 8
+  nbits: 8
+  hnsw_m: 32

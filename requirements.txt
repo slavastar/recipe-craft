@@ -1,0 +1,9 @@
+requests
+pyyaml
+loguru
+faiss-cpu
+faiss-gpu
+sentence-transformers
+fastapi
+uvicorn
+tqdm
