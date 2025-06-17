@@ -7,7 +7,7 @@
 ## 📁 Project Structure
 
 ```
-RECIPE-CRAFT
+recipe-craft/
 ├── config/
 │   ├── config_model_client.yaml   # Configuration for the LLM model client
 │   └── config_rag.yaml            # Main configuration for embedding, index, and paths
@@ -39,6 +39,14 @@ RECIPE-CRAFT
 git clone https://github.com/slavastar/recipe-craft.git
 cd recipe-craft
 ```
+
+### 2. Download the dataset
+Download the recipe textual dataset using this [link](https://eightportions.com/datasets/Recipes/#fn:1).
+
+Place the dataset inside the `data` folder of the project, so the structure looks like this:
+recipe-craft/
+├── data/                          # Initial recipe dataset in JSON format
+├───── *.json                      # JSON files containing recipes         
 
 ### 2. Launch the project using Docker
 ```bash
