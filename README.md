@@ -44,11 +44,14 @@ cd recipe-craft
 Download the recipe textual dataset using this [link](https://eightportions.com/datasets/Recipes/#fn:1).
 
 Place the dataset inside the `data` folder of the project, so the structure looks like this:
+
+```
 recipe-craft/
 ├── data/                          # Initial recipe dataset in JSON format
-├───── *.json                      # JSON files containing recipes         
+├───── *.json                      # JSON files containing recipes
+```    
 
-### 2. Launch the project using Docker
+### 3. Launch the project using Docker
 ```bash
 docker compose up --build
 ```
@@ -57,7 +60,7 @@ docker compose up --build
 - **Note:** Image construction and container initialization may take several minutes.
 - Once running, access the application at: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-### 3. Interact with the API
+### 4. Interact with the API
 - Visit the `/ask` endpoint in Swagger UI
 - Enter a natural language query (e.g. "Show me a vegan pasta recipe with spinach")
 - The system may take several dozen seconds to respond depending on model initialization
