@@ -1,4 +1,7 @@
+# Large data directories and files
 data/
+storage/recipe.json
+storage/recipe.index
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
